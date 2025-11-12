@@ -16,8 +16,8 @@ namespace Subjects {
   java.setTeacher(cTeacher);
   const javaRequirements = java.getRequirements();
   const javaAvailableTeacher = java.getAvailableTeacher();
-  console.log(javaRequirements);
-  console.log(javaAvailableTeacher);
+  console.log(java.getRequirements());
+  console.log(java.getAvailableTeacher());
 
   react.setTeacher(cTeacher);
   const reactRequirements = react.getRequirements();
